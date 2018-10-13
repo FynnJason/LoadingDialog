@@ -19,14 +19,13 @@ allprojects {
 
 ```
 dependencies {
-	        compile 'com.github.gittjy:LoadingDialog:1.0.2'
+	        implementation 'com.github.FynnJason:LoadingDialog:1.0'
 	}
 ```
 3、在代码中使用
 
 ```
 LoadingDailog.Builder loadBuilder=new LoadingDailog.Builder(this)
-                .setMessage("加载中...")
                 .setCancelable(true)
                 .setCancelOutside(true);
         LoadingDailog dialog=loadBuilder.create();
