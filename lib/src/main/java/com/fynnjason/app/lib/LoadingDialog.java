@@ -21,23 +21,11 @@ public class LoadingDialog extends Dialog {
 
     public static class Builder {
         private Context context;
-        private String message;
-        private boolean isShowMessage = true;
         private boolean isCancelable = false;
         private boolean isCancelOutside = false;
 
         public Builder(Context context) {
             this.context = context;
-        }
-
-        public LoadingDialog.Builder setMessage(String message) {
-            this.message = message;
-            return this;
-        }
-
-        public LoadingDialog.Builder setShowMessage(boolean isShowMessage) {
-            this.isShowMessage = isShowMessage;
-            return this;
         }
 
         public LoadingDialog.Builder setCancelable(boolean isCancelable) {

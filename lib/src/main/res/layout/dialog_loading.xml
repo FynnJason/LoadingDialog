@@ -5,8 +5,9 @@
     android:layout_height="match_parent">
 
     <FrameLayout
-        android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="@drawable/shape_bg"
         android:gravity="center"
