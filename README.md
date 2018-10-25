@@ -19,7 +19,7 @@ allprojects {
 
 ```
 dependencies {
-	        implementation 'com.github.FynnJason:LoadingDialog:1.0'
+	        implementation 'com.github.FynnJason:LoadingDialog:1.0.1'
 	}
 ```
 3、在代码中使用
